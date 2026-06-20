@@ -43,18 +43,6 @@ export const Screen2Section = () => {
         >
           <img src="/sc_updit.png" alt="updit" style={{ width: '100%', height: 'auto' }} />
         </a>
-        <p
-          className="mt-6"
-          style={{
-            fontSize: '0.75rem',
-            letterSpacing: '0.1em',
-            color: '#b0a89c',
-            textAlign: 'center',
-            fontFamily: 'var(--font-sans)',
-          }}
-        >
-          click → updit.co へ
-        </p>
       </div>
 
       <span
@@ -71,6 +59,25 @@ export const Screen2Section = () => {
       >
         <span ref={textRef}>webアプリも作れるよ！</span>
       </span>
+
+      <a
+        href="https://updit.co"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{
+          position: 'absolute',
+          bottom: '18px',
+          right: 'calc(5% + 60px)',
+          fontSize: '11px',
+          letterSpacing: '0.1em',
+          color: '#b0a89c',
+          fontFamily: 'var(--font-sans)',
+          textDecoration: 'none',
+          whiteSpace: 'nowrap',
+        }}
+      >
+        click → updit.co へ
+      </a>
 
       <img
         src="/kobo.png"

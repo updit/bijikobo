@@ -1,9 +1,3 @@
-export interface ContactForm {
-  name: string;
-  email: string;
-  message: string;
-}
-
 export interface Stat {
   value: string;
   label: string;

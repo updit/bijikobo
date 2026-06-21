@@ -10,9 +10,16 @@ export const useCharacter = (): CharacterState => {
   useEffect(() => {
     const timer = setTimeout(() => setIsAwake(true), 1500);
 
+    let ticking = false;
     const handleScroll = () => {
-      const max = document.body.scrollHeight - window.innerHeight;
-      setScrollProgress(max > 0 ? window.scrollY / max : 0);
+      if (!ticking) {
+        requestAnimationFrame(() => {
+          const max = document.body.scrollHeight - window.innerHeight;
+          setScrollProgress(max > 0 ? window.scrollY / max : 0);
+          ticking = false;
+        });
+        ticking = true;
+      }
     };
 
     window.addEventListener('scroll', handleScroll);

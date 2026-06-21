@@ -1,5 +1,3 @@
-'use client';
-
 import { Header } from '@/components/layout/Header';
 import { Screen1Section } from '@/components/sections/Screen1Section';
 import { StatsSection } from '@/components/sections/StatsSection';

@@ -3,6 +3,12 @@
 :root {
   --background: #ffffff;
   --foreground: #000000;
+  --color-primary: #800202;
+  --color-bg-warm: #ecebe4;
+  --color-text-muted: #6b6258;
+  --color-border-warm: #e0d8d0;
+  --color-bg-screen2: #ece6da;
+  --color-hint: #b0a89c;
 }
 
 @theme inline {
@@ -13,7 +19,7 @@
 }
 
 body {
-  background: #ffffff;
-  color: #000000;
+  background: var(--background);
+  color: var(--foreground);
   font-family: var(--font-sans), Arial, Helvetica, sans-serif;
 }

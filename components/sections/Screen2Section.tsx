@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useRef } from 'react';
+import Image from 'next/image';
 import { annotate } from 'rough-notation';
 
 export const Screen2Section = () => {
@@ -41,7 +42,13 @@ export const Screen2Section = () => {
           }}
           className="hover:scale-[1.02]"
         >
-          <img src="/sc_updit.png" alt="updit" style={{ width: '100%', height: 'auto' }} />
+          <Image
+            src="/sc_updit.png"
+            alt="updit"
+            width={1575}
+            height={964}
+            style={{ width: '100%', height: 'auto' }}
+          />
         </a>
       </div>
 
@@ -57,7 +64,9 @@ export const Screen2Section = () => {
           whiteSpace: 'nowrap',
         }}
       >
-        <span ref={textRef}>webアプリも作れるよ！</span>
+        <span ref={textRef} style={{ cursor: 'default', textDecoration: 'none' }}>
+          webアプリも作れるよ！
+        </span>
       </span>
 
       <a
@@ -79,9 +88,11 @@ export const Screen2Section = () => {
         click → updit.co へ
       </a>
 
-      <img
+      <Image
         src="/kobo.png"
         alt=""
+        width={1234}
+        height={1234}
         style={{
           position: 'absolute',
           bottom: '-20px',

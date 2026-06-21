@@ -71,4 +71,4 @@ updit（updit.co）とは別ドメイン・別プロジェクトで運用。
 ## 実装上の注意
 - 隠れキャラはページロード時・スクロール連動でアニメーション
 - #screen2のコンピュータ画面はupditのMIX版ヒーローを模したミニチュア表示
-- Formspreeのエンドポイントは環境変数で管理（FORMSPREE_ENDPOINT）
+- Formspreeのフォームidはコード内に直接記述（@formspree/react の useForm）

@@ -20,13 +20,13 @@ export const metadata: Metadata = {
     "美字工房 | びじこうぼう — コトバとデザインで、伝わりにくいものを見える形に",
   description:
     "長く休んでいた事務所を、ひっそりと再開しました。多言語対応・インバウンド向けのコトバとデザインで、伝わりにくいものを見える形に変えていきます。日本語・英語のローカライズ、ブランドコピー、UI/UXレビューなど、小規模ならではの1対1サポートでお手伝いします。",
-  metadataBase: new URL("https://bijikobo.vercel.app"),
+  metadataBase: new URL("https://iljos.com"),
   openGraph: {
     title:
       "美字工房 | びじこうぼう — コトバとデザインで、伝わりにくいものを見える形に",
     description:
       "長く休んでいた事務所を、ひっそりと再開しました。多言語対応・インバウンド向けのコトバとデザインで、伝わりにくいものを見える形に変えていきます。",
-    url: "https://bijikobo.vercel.app",
+    url: "https://iljos.com",
     siteName: "美字工房",
     images: [
       {

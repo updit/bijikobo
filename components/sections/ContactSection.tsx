@@ -93,6 +93,16 @@ export const ContactSection = () => {
       <p className="mt-8" style={{ fontSize: '0.75rem', opacity: 0.6 }}>
         通常、48時間以内にお返事いたします。海外ベースのため、メールを中心としたやりとりになりますことを、ご了承ください。
       </p>
+
+      <a
+        href="https://note.com/updit"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="mt-2 inline-block hover:underline"
+        style={{ fontSize: '0.75rem', opacity: 0.6 }}
+      >
+        ↗︎ Note
+      </a>
     </section>
   );
 };
